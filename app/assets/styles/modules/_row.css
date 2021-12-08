@@ -1,5 +1,9 @@
 .row {
-  background-color: yellow;
+  &::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
   &__4 {
     float: left;
@@ -11,7 +15,4 @@
     width: 66.66%;
   }
 
-  .clear-me{
-      clear: both;
-  }
 }
