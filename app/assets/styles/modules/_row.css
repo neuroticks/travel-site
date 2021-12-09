@@ -1,19 +1,6 @@
 .row {
-  
   &--t-padding {
     padding-top: 80px;
-  }
-
-  &--gutters {
-    column-gap: 5.3%;
-  }
-
-  &--gutters-large {
-    column-gap: 8%;
-  }
-
-  &--gutters-small {
-    column-gap: 3.6%;
   }
 
   &__b-margin-until-medium {
@@ -21,6 +8,21 @@
   }
 
   @mixin atMedium {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+
+    &--gutters {
+      column-gap: 5.3%;
+    }
+
+    &--gutters-large {
+      column-gap: 8%;
+    }
+
+    &--gutters-small {
+      column-gap: 3.6%;
+    }
+
     &__b-margin-until-medium {
       margin-bottom: 0;
     }
