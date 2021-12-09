@@ -7,15 +7,15 @@
   }
 
   &--gutters {
-    margin-right: -65px;
+    column-gap: 5.3%;
   }
 
   &--gutters-large {
-    margin-right: -100px;
+    column-gap: 8%;
   }
 
   &--gutters-small {
-    margin-right: -45px;
+    column-gap: 3.6%;
   }
 
   &__b-margin-until-medium {
