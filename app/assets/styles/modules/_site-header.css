@@ -79,6 +79,12 @@
     }
   }
 
+  &__menu-icon--close-x{
+    &::before{
+      transform: rotate(45deg);
+    }
+  }
+
   &__menu-content {
     //opacity: 0;
     visibility: hidden;
