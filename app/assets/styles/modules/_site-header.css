@@ -87,7 +87,7 @@
     }
 
     &::after{
-      transform: rotate(-45deg) scaleX(1.25);
+      transform: rotate(-45deg) scaleX(1.25) translateY(1px) ;
     }
   }
 
