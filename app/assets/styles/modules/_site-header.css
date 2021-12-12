@@ -45,7 +45,8 @@
     top: 10px;
     right: 10px;
 
-    &__top{
+    &::before{
+      content: "";
       position: absolute;
       top: 0;
       left: 0;
@@ -63,7 +64,8 @@
       background-color: #FFF;
     }
 
-    &__bottom{
+    &::after{
+      content: "";
       position: absolute;
       bottom: 0;
       left: 0;
