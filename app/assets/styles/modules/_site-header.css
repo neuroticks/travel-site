@@ -108,6 +108,8 @@
     text-align: center;
 
     @mixin atMedium {
+      display: flex;
+      justify-content: flex-end;
       visibility: visible;
       //opacity: 1;
       //display: block;
