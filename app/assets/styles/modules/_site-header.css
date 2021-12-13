@@ -15,8 +15,8 @@
 
   &__btn-container {
     @mixin atMedium {
-      float: right;
-    }
+/*       float: right;
+ */    }
   }
 
   &__logo {
