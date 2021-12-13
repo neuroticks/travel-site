@@ -1,14 +1,8 @@
 .menu-principal {
   padding-top: 10px;
-  
-@mixin atMedium{
-  padding-top: 0;
-}
 
-  &--pull-right {
-    @mixin atMedium {
-      float: right;
-    }
+  @mixin atMedium {
+    padding-top: 0;
   }
 
   ul {
