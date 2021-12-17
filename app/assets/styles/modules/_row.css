@@ -9,7 +9,11 @@
 
   @mixin atMedium {
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+
+    &--column {
+      grid-template-columns: repeat(12, 1fr);
+    }
 
     &--gutters {
       column-gap: 5.3%;
